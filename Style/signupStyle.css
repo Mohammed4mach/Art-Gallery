@@ -1,0 +1,110 @@
+/* Adjusting dimensions & main style of the Div */
+.signup
+{
+    background-color: rgb(63,63,75); 
+    text-align: left;
+    width: 48%;
+    margin: 6% 22.3%;
+    padding: 35px;
+    border: 1px solid #333;
+    border-radius: 2px 20px 20px;
+    font-size: 17px;
+    font-family: monospace;
+    box-shadow: 1px 2px 11px 4px #222;
+    /* box-shadow: x-offset y-offset blur spread color */
+}
+    .signup form
+    {
+        margin: 27px 0 24px;
+    }
+
+    .signup h2
+    {
+        color: whitesmoke;
+        font-size: 31px;
+        margin: 4px;
+        padding: 7px;
+    }
+    
+    /* dimensions and style of input box */
+    .signup input
+    {
+        display: inline-block;
+        width: 70%;
+        border: 1px solid rgb(72,72,87);
+        border-radius: 14px;
+        padding: 21px;
+        margin: 8px 5px;
+        background-color: rgb(50,50,60);
+        color: #eee;
+        font-size: 21px;
+    }
+
+    .signup .birthDate ,.gender
+    {
+        margin: 7px 3%;
+    }
+
+    .signup .birthDate > label, .gender > label
+    {
+        display: block;
+        margin: 0 0 4px;
+    }
+    /* Styling the div comes after label */
+    .signup .birthDate label + div, .gender .male
+    {
+        margin: 0 1%;
+    }
+
+    .signup .birthDate select
+    {
+        width: 95px;
+        height: 30px;
+        background-color: rgb(50,50,60);
+        color: aliceblue;
+        font-size: 18px;
+        border: 1px solid rgb(72,72,87);
+        border-radius: 9px;
+    }
+    
+    .signup .gender .male
+    {
+        float: left;
+        width: 23%;
+        padding: 3px;
+        margin: 3px 13px 3px 3px;
+        border: 1px solid #666;
+        border-radius: 7px;
+        text-align: center;
+    }
+
+    .signup input[type="radio"]
+    {
+        width: auto;
+    }
+
+    .signup p 
+    {
+        font-size: 15px;
+        margin: 13px 0;
+    }
+
+    .signup input[type="submit"]
+    {
+        width: 40%;
+        padding: 14px;
+        margin: 16px 15px 15px;
+        border-radius: 10px;
+        font-size: 23px;
+        font-weight: bold;
+        transition: 0.3s;
+        color: white;
+        background-color: #21bc21;
+        cursor: default;
+    }
+
+    .signup input[type="submit"]:hover
+    {
+        background-color: #21b021;
+        text-shadow: 0px 0 1px #ddd;
+    }
